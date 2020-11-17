@@ -1,14 +1,16 @@
-﻿namespace SozvezdieAPI.Models
+﻿using System.Collections.Generic;
+
+namespace SozvezdieAPI.Models
 {
     public class OfferData
     {
-        /*
-        public string title { get; set; }
-        public string description { get; set; }
-        public string periodStart { get; set; }
-        public string periodEnd { get; set; }
-        public string minPrice { get; set; }
-        public string thumbnail { get; set; }
-        */
+        public int Id { get; set; }
+        public string Header { get; set; }
+        public List<string> Route { get; set; }
+        public string Description { get; set; }
+        public string PeriodStart { get; set; }
+        public string PeriodEnd { get; set; }
+        public string MinPrice { get; set; }
+        public List<Dictionary<string, string>> PhotoAlbum { get; set; }
     }
 }

@@ -10,7 +10,6 @@ namespace SozvezdieAPI.Models
         public string PeriodStart { get; set; }
         public string PeriodEnd { get; set; }
         public string MinPrice { get; set; }
-        public string Thumbnail { get; set; }
         public Dictionary<string, string> PhotoCard { get; set; }
     }
 }

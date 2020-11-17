@@ -156,7 +156,6 @@
     </Compile>
     <Compile Include="Models\OfferData.cs" />
     <Compile Include="Models\Offer.cs" />
-    <Compile Include="Models\PhotoAlbumEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
